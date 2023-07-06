@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.product-text{
+    width: 100%;
+    height: 360px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.devanta{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.devanta div{
+    width: 70px;
+    height: 35px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 20px;
+}
+
+.devanta p{
+    font-weight: 500;
+    color: white;
+}
+
+.gallery{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.product-heading{
+    width: 90%;
+    height: 180px;
+}
+
+.product-heading h1{
+    font-size: 115px;
+    color: white;
+}
+
+.para-container{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-container div{
+    height: 61px;
+    display: flex;
+    align-items: end;
+}
+
+.para-container p{
+    font-size: 15px;
+    color: white;
+}
+
+.para-container div span{
+    font-size: 15px;
+    color: white;
+}
+
+.product-img{
+    width: 100%;
+    height: 370px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-part{
+    width: 90%;
+    height: 320px;
+    background-image: url('./depositphotos_60156747-stock-photo-math-notebook-page.jpg');
+    background-size: cover;
+    border-radius: 0px 250px 250px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img-part img{
+    width: 338px;
+    margin-bottom: 100px;
+}
+
+.user{
+    text-align: center;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+.user span{
+    background-color: rgb(228, 14, 110);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 1px;
+}
+
+.branding{
+    width: 150px;
+    height: 80px;
+    background-color: rgb(7, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform:rotate(-18deg);
+    position: absolute;
+    right: -40px;
+}
+
+.branding p{
+    font-weight: 900;
+}
+
+.usability{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(102, 242, 92);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 210px;
+    right: 150px;
+}
+
+.usability p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.motion{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(200, 108, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+    transform: rotate(15deg);
+    bottom: 30px;
+}
+
+.motion p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.e-commerce{
+    width: 200px;
+    background-color: rgb(239, 239, 21);
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    transform: rotate(-10deg);
+}
+
+.e-commerce p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.strategy{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: rgb(6, 142, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: -20px;
+    left: 250px;
+    transform: rotate(-10deg);
+}
+
+.strategy h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.strategy p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+        /* RESPONSIVE */
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+
+    .product-text{
+        width: 100%;
+    }
+
+    .devanta p{
+        font-size: 16px;
+    }
+
+    .gallery{
+        width: 200px;
+    }
+
+    .gallery a{
+        font-size: 12px;
+    }
+
+    .product-heading{
+        height: 100px;
+    }
+
+    .product-heading h1{
+        font-size: 70px;
+    }
+
+    .para-container{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+
+    .para-container p{
+        font-size: 12px;
+    }
+
+    .para-container div{
+        height: 50px;
+    }
+
+    .para-container div span{
+        font-size: 12px;
+    }
+
+    .product-img{
+        width: 100%;
+    }
+
+    .img-part{
+        width: 90%;
+        position: relative;
+    }
+
+    .branding{
+        position: absolute;
+        right: -5px;
+    }
+
+    .motion{
+        position: absolute;
+        left: 50px;
+        bottom: 10px;
+    }
+
+    .user{
+        position: absolute;
+        right: 120px;
+    }
+
+    .strategy{
+        position: absolute;
+        left: 80px;
+        top: -60px;
+    }
+}
